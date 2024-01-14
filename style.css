@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #006992;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: #27476E;
+    border-radius: 20px;;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.imie-input {
+    font-size: 20px;
+    text-align-last: center;
+    margin-bottom: 15px;
+    width: 520px;
+}
+
+.ogolny-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.pierwszy-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+}
+
+.pierwszy-div input {
+}
+
+.drugi-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+}
+
+.trzeci-div {
+    display: flex;
+    margin-top: 25px;
+    gap: 25px;
+}
+
+.pierwszy-div input {
+    font-size: 20px;
+}
+
+.trzeci-div button {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 15px;
+    background-color: #001D4A;
+    color: white;
+    cursor: pointer;
+}
+
+.radio,.checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.email, .data {
+    display: flex;
+    font-size: 15px;
+    width: 150px;
+    gap: 10px;
+}
+
+input {
+    border: 1px solid black;
+    outline: none;
+}
